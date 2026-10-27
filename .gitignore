@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS and editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local datasets and generated outputs
+data/
+outputs/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.streamlit/secrets.toml
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit local agent skills
+.agents/
+
+# Temporary test backups
+*.bak
+
+YFP_Dataset_Updated/
